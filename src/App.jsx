@@ -1,10 +1,13 @@
-
 import './App.css'
+import { ToDoWrapper } from './components'
 
 export default function App() {
 
   return (
-    <h1>Hello</h1>
+    <div className='App'>
+      <ToDoWrapper />
+
+    </div>
   )
 }
 
